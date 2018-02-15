@@ -32,7 +32,6 @@ def maxChar(str):
 
 		if charMap[char] > max:
 			max = charMap[char]
-			max
 			maxChar = char
 
 	return maxChar
